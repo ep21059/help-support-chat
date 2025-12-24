@@ -1,0 +1,29 @@
+# --- OS generated files ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# --- Python / Backend ---
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+.env
+.venv/
+env/
+venv/
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# --- Node.js / Frontend ---
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# --- Docker ---
+.docker/
+# DBの永続化データをローカルに保存している場合はここに追加
+# postgres_data/
